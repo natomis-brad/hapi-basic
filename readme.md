@@ -1,5 +1,8 @@
 # Hapi - Basic
 
+[![Build Status](https://travis-ci.org/natomis-brad/hapi-basic.svg?branch=master)](https://travis-ci.org/natomis-brad/hapi-basic)
+
+
 Simple Hapi Server, will be compared to express app with similar functions and features.
 
   - Typescript

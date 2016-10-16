@@ -4,7 +4,7 @@
   "description": "basic hapi",
   "scripts": {
     "start": "node build/index.js",
-    "setup": "npm install & typings install",
+    "setup": "npm install typescript -g && npm install typings -g && npm install && typings install",
     "pretest": "NODE_ENV=test",
     "posttest": "NODE_ENV=dev",
     "test": "npm run compile && mocha ./build/test/*/**.js",
@@ -22,7 +22,7 @@
   "repository": "https://github.com/natomis-brad/hapi-basic",
   "license": "MIT",
   "dependencies": {
-    "boom": "^4.1.0",
+    "boom": "^4.2.0",
     "fs": "0.0.1-security",
     "good": "^7.0.2",
     "good-console": "^6.1.2",
@@ -35,18 +35,14 @@
     "nconf": "^0.8.4",
     "path": "^0.12.7",
     "sloc": "^0.1.11",
-    "tsc": "^1.20150623.0",
     "vision": "^4.1.0"
   },
   "devDependencies": {
-    "boom": "^4.1.0",
+    "boom": "^4.2.0",
     "chai": "^3.5.0",
     "mocha": "^3.1.2",
     "rimraf": "^2.5.4",
     "should": "^11.1.1",
-    "tsc": "^1.20150623.0",
-    "tslint": "^3.15.1",
-    "typescript": "^2.0.3",
-    "typings": "^1.4.0"
+    "tslint": "^3.15.1"
   }
 }

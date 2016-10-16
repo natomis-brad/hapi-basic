@@ -1,0 +1,17 @@
+{
+  "globalDependencies": {
+    "boom": "registry:dt/boom#0.0.0+20160724101333",
+    "hapi": "registry:dt/hapi#13.0.0+20160928135445",
+    "joi": "registry:dt/joi#9.0.0+20160906140128",
+    "mongodb": "registry:dt/mongodb#2.1.0+20160602142941",
+    "mongoose": "registry:dt/mongoose#4.5.9+20161010180758",
+    "nconf": "registry:dt/nconf#0.0.0+20160724073144",
+    "node": "registry:dt/node#6.0.0+20161010101523"
+  },
+  "globalDevDependencies": {
+    "chai": "registry:dt/chai#3.4.0+20160601211834",
+    "mocha": "registry:dt/mocha#2.2.5+20160720003353",
+    "mongoose": "registry:dt/mongoose#4.5.9+20161010180758",
+    "typescript": "registry:dt/typescript#0.4.0+20160317120654"
+  }
+}

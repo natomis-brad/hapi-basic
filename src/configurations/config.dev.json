@@ -1,0 +1,13 @@
+{
+  "database": {
+    "connectionString": "mongodb://localhost/meetup-dev"
+  },
+  "server": {
+    "port": 5010,
+    "address": "0.0.0.0",
+    "plugins": [
+      "logger",
+      "swagger"
+    ]
+  }
+}
